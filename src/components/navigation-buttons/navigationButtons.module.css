@@ -1,0 +1,22 @@
+.buttonGroup {
+    display: flex;
+    > button {
+        flex: 1;
+        min-width: fit-content;
+        color: var(--text-color-muted);
+        border-radius: unset;
+        border-bottom: 2px solid transparent;
+        transition: border-color 0.3s;
+    }
+    
+    > button:focus, button:target, button:hover {
+        color: var(--text-color-light);
+    }
+    
+    > button:focus {
+        border-bottom: 2px solid var(--focus-border-color);
+    }
+    @media (max-width: 600px) {
+            flex-direction: column;
+    }
+}

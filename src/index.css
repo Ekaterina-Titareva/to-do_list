@@ -1,0 +1,26 @@
+:root {
+  font-family: Inter, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  font-size: 16px;
+
+  --body-background-color: #343544;
+  --background-color: #807a83;
+  --border-color: #807a83;
+  --border-color-light: rgba(255, 255, 255, 0.4);
+  --text-color-light: rgba(255, 255, 255, 0.7);
+  --text-color-muted: rgba(255, 255, 255, 0.4);
+  --focus-border-color: rgb(25, 118, 210);
+}
+body {
+  margin: 0;
+  padding: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  background-color: var(--body-background-color)
+}
